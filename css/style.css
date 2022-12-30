@@ -30,8 +30,8 @@
 }
 /* header part */
 nav{
-    background-color: #2D25A0;
-    padding: auto;
+    background-color: #9089f0;
+    padding: 20px 20px;
 } 
 #home{
     background-color: aquamarine;
@@ -63,11 +63,11 @@ nav{
     margin-right: 10px;
     border-radius: 5px;
 }
-a{
+ul  a{
     text-decoration: none;
 }
 li{
-    list-style-type: none;
+     list-style-type: none;
 }
 /* banner part */
 .banner-back-color{
@@ -109,7 +109,7 @@ button{
     margin-top: 15px;
 }
 #footer-Top img{
-    width: 300px;
+    width: 500px;
 }
 .w-40{
     width: 40%;
