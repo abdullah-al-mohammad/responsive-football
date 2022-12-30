@@ -14,7 +14,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(4, 500px);
-    gap: 10px;
+    gap: 30px;
 }
 .justify-evenly{
     justify-content: space-evenly;
@@ -32,7 +32,9 @@
 nav{
     background-color: #9089f0;
     padding: 20px 20px;
-} 
+    position: fixed;
+    width: 100%;
+}
 #home{
     background-color: aquamarine;
     margin-right: 10px;
@@ -79,8 +81,13 @@ button{
     color: white;
     border: none;
 }
+button:active{
+    box-shadow: 1px 1px 20px #666;
+    transform: translateY(4px);
+}
 #banner{
     height: 410px;
+    margin-bottom: 72px;
 }
 #banner h1{
     font-size: 64px;
@@ -105,10 +112,16 @@ button{
     height: 256px;
 }
 /* footer top */
-.footet-top{
-    margin-top: 15px;
+.footer-top{
+    padding: 72px 0;
 }
-#footer-Top img{
+.footer-top h1{
+    font-size: 48px;
+}
+.footer-top p{
+    margin: 20px 0;
+}
+.footer-top img{
     width: 500px;
 }
 .w-40{
@@ -120,4 +133,7 @@ footer>img{
 }
 .icon img{
     width: 30px;
+}
+footer{
+    margin-bottom: 30px;
 }
